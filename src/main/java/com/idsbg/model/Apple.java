@@ -9,6 +9,7 @@ public class Apple {
 	}
 	public void setId(int id) {
 		this.id = id;
+		System.out.println(1);
 	}
 	public String getName() {
 		return name;
@@ -16,6 +17,6 @@ public class Apple {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 
 }
